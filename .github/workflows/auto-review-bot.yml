@@ -12,7 +12,7 @@ jobs:
     name: Run
     steps:
       - name: Fetch PR Number
-        uses: dawidd6/action-download-artifact@246dbf436b23d7c49e21a7ab8204ca9ecd1fe615
+        uses: dawidd6/action-download-artifact@e73ee10c7552966e58bde25ecb4a0033cd13a843
         with:
           name: pr-number
           workflow: auto-review-trigger.yml
